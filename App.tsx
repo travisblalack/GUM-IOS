@@ -1,24 +1,23 @@
 
 import * as React from 'react';
 import 'react-native-gesture-handler';
-import Main from './ios/GUM/src/components/images/Main.js'
-import Home from './ios/GUM/src/components/images/Home.js';
-import StartMoving from './ios/GUM/src/components/images/StartMoving.js';
-import SignUp from './ios/GUM/src/components/images/SignUp.js';
-import UpdateSchedule from './ios/GUM/src/components/images/UpdateSchedule.js'
-import CurrentTeams from './ios/GUM/src/components/images/CurrentTeams.js'
-import Teams from './ios/GUM/src/components/images/Teams.js';
-import JoinTeam from './ios/GUM/src/components/images/JoinTeam.js';
-import CreateTeams from './ios/GUM/src/components/images/CreateTeams.js';
-import Paypal from './ios/GUM/src/components/images/Paypal.js';
-import AboutTeams from './ios/GUM/src/components/images/AboutTeams.js';
-import TeachingDemos from './ios/GUM/src/components/images/TeachingDemos.js';
-import ThreeDots from './ios/GUM/src/components/images/ThreeDots.js';
-import EasyVideos from './ios/GUM/src/components/images/EasyVideos.js';
-import ModerateVideos from './ios/GUM/src/components/images/ModerateVideos.js';
-import VigorousVideos from './ios/GUM/src/components/images/VigorousVideos.js';
-import L1S1 from './ios/GUM/src/components/images/L1S1.js';
-import L1S2 from './ios/GUM/src/components/images/L1S2.js';
+import Main from './GUM/src/components/images/Main.js';
+import Home from './GUM/src/components/images/Home.js';
+import StartMoving from './GUM/src/components/images/StartMoving.js';
+import SignUp from './GUM/src/components/images/SignUp.js';
+import UpdateSchedule from './GUM/src/components/images/UpdateSchedule.js'
+import CurrentTeams from './GUM/src/components/images/CurrentTeams.js'
+import Teams from './GUM/src/components/images/Teams.js';
+import JoinTeam from './GUM/src/components/images/JoinTeam.js';
+import CreateTeams from './GUM/src/components/images/CreateTeams.js';
+import AboutTeams from './GUM/src/components/images/AboutTeams.js';
+import TeachingDemos from './GUM/src/components/images/TeachingDemos.js';
+import ThreeDots from './GUM/src/components/images/ThreeDots.js';
+import EasyVideos from './GUM/src/components/images/EasyVideos.js';
+import ModerateVideos from './GUM/src/components/images/ModerateVideos.js';
+import VigorousVideos from './GUM/src/components/images/VigorousVideos.js';
+import L1S1 from './GUM/src/components/images/L1S1.js';
+import L1S2 from './GUM/src/components/images/L1S2.js';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { useNavigationContainerRef } from '@react-navigation/native';
@@ -53,7 +52,6 @@ function App() {
         <Stack.Screen name="CurrentTeams" component={CurrentTeams}/>
         <Stack.Screen name="CreateTeams" component={CreateTeams}/>
         <Stack.Screen name="AboutTeams"  component={AboutTeams}/>
-        <Stack.Screen name="Paypal" component={Paypal}/>
         <Stack.Screen name="ThreeDots" component={ThreeDots}/>
         <Stack.Screen name="EasyVideos" component={EasyVideos}/>
         <Stack.Screen name="ModerateVideos" component={ModerateVideos}/>
